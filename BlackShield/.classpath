@@ -9,6 +9,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/Wagner/Repositoires/BlackShield/BlackShield/WebContent/lib/hibernate3.5.0-final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Beatriz/Documents/JARs/hibernate3.5.0-final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
