@@ -1,11 +1,31 @@
 package comum.produto.entidade;
 
-public class Produto {
+
+import java.io.Serializable;
+
+import javax.persistence.*;
+
+@Entity
+@Table (name = "produto")
+public class Produto implements Serializable{
 	
+	
+	@Id
+	@GeneratedValue
+	@Column(name = "idProduto")
 	private Integer idProduto;
+	
+	@Column(name = "nomeProduto")
 	private String nome;
+	
+	@Column(name = "descricaoProduto")
 	private String descricao;
+	
+	@Column(name = "custoProduto")
 	private double custo;
+	
+	
+	
 	public Integer getIdProduto() {
 		return idProduto;
 	}
